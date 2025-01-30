@@ -1,12 +1,12 @@
 body {
-  background-color: rgb(74, 121, 190);
+  background-color: rgb(98, 116, 107);
 }
 .App {
   margin: 20px;
 }
 
 .searchDiv {
-  border: 2px solid rgb(243, 246, 247);
+  border: 2px solid rgb(120, 146, 142);
   padding: 8px;
   border-radius: 5px;
 }
@@ -17,4 +17,15 @@ body {
 .searchLabel {
   color: rgb(243, 246, 247);
   font-size: x-large;
+}
+
+.imageList {
+  columns: 300px 4;
+  column-gap: 13px;
+  
+}
+
+.imageListimg {
+  width: 100%;
+  margin-top: 70px;
 }
